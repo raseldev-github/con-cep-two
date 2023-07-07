@@ -71,5 +71,113 @@
 .btn:hover{
         color:white;
         background-color: grey;
+        
 
 }
+.about{
+        font-size:50px;
+        font-weight: bold;
+        padding: 15px;
+        text-align:center;
+}
+.about-containar{
+           display:flex;
+           flex-direction: row-reverse;
+           justify-content: space-around;
+           align-items: center;
+           display: cover;
+           height:100vh;
+
+}
+.aboutimage{
+         width:350px;
+         padding: 10px;
+}
+.about-us-text{
+          width:400px;
+          
+}
+.headth{
+     padding:20px;
+     font-size:23px;
+     text-align:justify;
+     
+}
+.para{
+       font-size:19px;
+       padding: 10px;
+       margin-bottom: 10px;
+}
+.btnn{
+        border:1px solid black;
+        padding: 10px 15px;
+        font-size:18px;
+        font-weight: bold;
+        background-color: bisque;
+        color:cadetblue;
+        border-radius: 4px;
+}
+.btnn:hover{
+      background-color:red;
+      color:black;
+     
+}
+.boxone{
+        width:280px;
+        height:330px;
+        padding:15px;
+        text-align:center;
+        box-shadow: 4px 2px 105px gray;
+        background-color: black;
+        padding:20px;
+        color:white;
+}
+.iconf{
+        width:90px;
+        
+}
+.details{
+        padding:6px 15px;
+        font-size:18px;
+        background-color: gray;
+        color:bisque;
+        margin-top: 15px;
+
+}
+.headers{
+        padding:10px;
+}
+.pera{
+        padding:10px;
+}
+.service-containar{
+           display: flex;
+           justify-content: space-around;
+           padding:20px;
+           height:100vh;
+}
+.bgc{
+       background-image: url("../images/background.png"),linear-gradient(45deg,black,gray);
+}
+.imgftt{
+         width:200px;
+        
+}
+.footer-containar{
+          display:flex;
+          justify-content: space-around;
+          align-items: center;
+          list-style-type: none;
+          height:300px;
+          background-color:gray;
+          color:bisque;
+
+}
+.useful,.support,.contact-info{
+         font-size:25px;
+         padding:10px;
+}
+.footimage{
+        font-size:25px;
+}
+
